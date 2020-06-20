@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Test Extension",
+  "version": "0.1.0",
+  "description": "Test for extension code",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content_1.1.0.js"]
+    }
+  ],
+  "permissions": ["tabs"]
+}
