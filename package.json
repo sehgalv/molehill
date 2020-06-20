@@ -1,0 +1,23 @@
+{
+  "name": "molehill",
+  "version": "1.0.0",
+  "description": "molehill carbon offset via webscraping",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rwostarek/molehill.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rwostarek/molehill/issues"
+  },
+  "homepage": "https://github.com/rwostarek/molehill#readme",
+  "dependencies": {
+    "@mysql/xdevapi": "8.0.20"
+  }
+}
